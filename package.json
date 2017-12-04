@@ -1,0 +1,15 @@
+{
+  "id": "jira",
+  "name": "Jira",
+  "version": "1.0.0",
+  "description": "The #1 software development tool used by agile teams.",
+  "main": "index.js",
+  "author": "iamcxa <iamcxa@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "dev": "Library/Application Support/Franz/recipes/dev/jira",
+    "serviceURL": "https://{teamId}.atlassian.net",
+    "hasTeamId": true,
+    "urlInputSuffix": ".atlassian.net"
+  }
+}
