@@ -11,9 +11,7 @@ read Franz's [installation guide] and do as follow:
 1. mkdir a new folder called 'dev' under Franz and clone this repo:
 
 ```shell
-mkdir -p "$HOME/Library/Application Support/Franz/recipes/dev"
-&&
-git clone https://github.com/iamcxa/franz-recipe-jira.git
+mkdir -p "$HOME/Library/Application Support/Franz/recipes/dev" && git clone https://github.com/iamcxa/franz-recipe-jira.git "$HOME/Library/Application Support/Franz/recipes/dev/franz-recipe-jira"
 ```
 
 2. Reload Franz
